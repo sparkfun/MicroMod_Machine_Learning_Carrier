@@ -28579,6 +28579,11 @@ Close only if you know what you're doing.</text>
 <label x="137.16" y="127" size="1.27" layer="95" xref="yes"/>
 <pinref part="J4" gate="J1" pin="SPI_SCK/SDIO_CLK"/>
 </segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="45.72" x2="215.9" y2="45.72" width="0.1524" layer="91"/>
+<label x="215.9" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SPI_MOSI" class="0">
 <segment>
@@ -29631,13 +29636,6 @@ Close only if you know what you're doing.</text>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="198.12" x2="152.4" y2="200.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SPI_CLK" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="45.72" x2="215.9" y2="45.72" width="0.1524" layer="91"/>
-<label x="215.9" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HEADER_!CS!" class="0">
