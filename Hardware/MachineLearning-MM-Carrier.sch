@@ -25097,81 +25097,6 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 </deviceset>
 </devicesets>
 </library>
-<library name="ublox">
-<packages>
-<package name="8-UDFN">
-<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.0254" layer="51"/>
-<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.0254" layer="51"/>
-<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.0254" layer="51"/>
-<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.0254" layer="51"/>
-<rectangle x1="-0.45" y1="-1.5" x2="-0.2" y2="-1.05" layer="51"/>
-<rectangle x1="0.2" y1="-1.5" x2="0.45" y2="-1.05" layer="51"/>
-<rectangle x1="0.85" y1="-1.5" x2="1.1" y2="-1.05" layer="51"/>
-<rectangle x1="-1.1" y1="-1.5" x2="-0.85" y2="-1.05" layer="51"/>
-<rectangle x1="0.2" y1="1.05" x2="0.45" y2="1.5" layer="51" rot="R180"/>
-<rectangle x1="-0.45" y1="1.05" x2="-0.2" y2="1.5" layer="51" rot="R180"/>
-<rectangle x1="-1.1" y1="1.05" x2="-0.85" y2="1.5" layer="51" rot="R180"/>
-<rectangle x1="0.85" y1="1.05" x2="1.1" y2="1.5" layer="51" rot="R180"/>
-<rectangle x1="-1.125" y1="-0.75" x2="1.125" y2="0.75" layer="51"/>
-<smd name="1" x="-0.975" y="-1.375" dx="0.3" dy="0.65" layer="1"/>
-<smd name="2" x="-0.325" y="-1.375" dx="0.3" dy="0.65" layer="1"/>
-<smd name="3" x="0.325" y="-1.375" dx="0.3" dy="0.65" layer="1"/>
-<smd name="4" x="0.975" y="-1.375" dx="0.3" dy="0.65" layer="1"/>
-<smd name="5" x="0.975" y="1.375" dx="0.3" dy="0.65" layer="1" rot="R180"/>
-<smd name="6" x="0.325" y="1.375" dx="0.3" dy="0.65" layer="1" rot="R180"/>
-<smd name="7" x="-0.325" y="1.375" dx="0.3" dy="0.65" layer="1" rot="R180"/>
-<smd name="8" x="-0.975" y="1.375" dx="0.3" dy="0.65" layer="1" rot="R180"/>
-<smd name="EP" x="0" y="0" dx="2.35" dy="1.6" layer="1" cream="no"/>
-<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="1.6" width="0.2032" layer="21"/>
-<wire x1="-1.6" y1="1.6" x2="-1.3" y2="1.6" width="0.2032" layer="21"/>
-<wire x1="1.6" y1="1.6" x2="1.6" y2="-1.6" width="0.2032" layer="21"/>
-<wire x1="1.6" y1="-1.6" x2="1.3" y2="-1.6" width="0.2032" layer="21"/>
-<wire x1="-1.6" y1="-1.6" x2="-1.3" y2="-1.6" width="0.2032" layer="21"/>
-<wire x1="1.6" y1="1.6" x2="1.3" y2="1.6" width="0.2032" layer="21"/>
-<circle x="-1.8" y="-1.8" radius="0.3" width="0" layer="21"/>
-<text x="-1.7" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
-<text x="1.7" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="bottom-center">&gt;Value</text>
-<rectangle x1="-0.6875" y1="-0.4" x2="0.6875" y2="0.4" layer="31"/>
-</package>
-</packages>
-<symbols>
-<symbol name="VREG_EN">
-<wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="-7.62" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
-<text x="-7.62" y="7.874" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-7.874" size="1.778" layer="96" rot="MR180">&gt;VALUE</text>
-<pin name="IN" x="-10.16" y="5.08" visible="pin" length="short" direction="in"/>
-<pin name="GND" x="-10.16" y="0" visible="pin" length="short" direction="in"/>
-<pin name="OUT" x="7.62" y="5.08" visible="pin" length="short" direction="out" rot="R180"/>
-<pin name="EN" x="-10.16" y="-5.08" visible="pin" length="short"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="AP7361C-33FGE" prefix="U">
-<description>&lt;h3&gt;AP7361C 3.3V LDO Regulator&lt;/h3&gt;</description>
-<gates>
-<gate name="G$1" symbol="VREG_EN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="8-UDFN">
-<connects>
-<connect gate="G$1" pin="EN" pad="5"/>
-<connect gate="G$1" pin="GND" pad="4 EP"/>
-<connect gate="G$1" pin="IN" pad="8"/>
-<connect gate="G$1" pin="OUT" pad="1"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="VREG-14094"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Sensors">
 <description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
 This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
@@ -27177,6 +27102,40 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="UDFN-8">
+<circle x="-1.8" y="-1.8" radius="0.3" width="0" layer="21"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.0254" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.0254" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.0254" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.0254" layer="51"/>
+<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="1.6" x2="-1.3" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="1.6" x2="1.6" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="-1.6" x2="1.3" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="-1.6" x2="-1.3" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="1.6" x2="1.3" y2="1.6" width="0.2032" layer="21"/>
+<rectangle x1="-0.45" y1="-1.5" x2="-0.2" y2="-1.05" layer="51"/>
+<rectangle x1="0.2" y1="-1.5" x2="0.45" y2="-1.05" layer="51"/>
+<rectangle x1="0.85" y1="-1.5" x2="1.1" y2="-1.05" layer="51"/>
+<rectangle x1="-1.1" y1="-1.5" x2="-0.85" y2="-1.05" layer="51"/>
+<rectangle x1="0.2" y1="1.05" x2="0.45" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="-0.45" y1="1.05" x2="-0.2" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="-1.1" y1="1.05" x2="-0.85" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="0.85" y1="1.05" x2="1.1" y2="1.5" layer="51" rot="R180"/>
+<rectangle x1="-1.125" y1="-0.75" x2="1.125" y2="0.75" layer="51"/>
+<rectangle x1="-0.6875" y1="-0.4" x2="0.6875" y2="0.4" layer="31"/>
+<smd name="1" x="-0.975" y="-1.375" dx="0.3" dy="0.65" layer="1"/>
+<smd name="2" x="-0.325" y="-1.375" dx="0.3" dy="0.65" layer="1"/>
+<smd name="3" x="0.325" y="-1.375" dx="0.3" dy="0.65" layer="1"/>
+<smd name="4" x="0.975" y="-1.375" dx="0.3" dy="0.65" layer="1"/>
+<smd name="5" x="0.975" y="1.375" dx="0.3" dy="0.65" layer="1" rot="R180"/>
+<smd name="6" x="0.325" y="1.375" dx="0.3" dy="0.65" layer="1" rot="R180"/>
+<smd name="7" x="-0.325" y="1.375" dx="0.3" dy="0.65" layer="1" rot="R180"/>
+<smd name="8" x="-0.975" y="1.375" dx="0.3" dy="0.65" layer="1" rot="R180"/>
+<smd name="EP" x="0" y="0" dx="2.35" dy="1.6" layer="1" cream="no"/>
+<text x="-1.7" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="1.7" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="bottom-center">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="V-REG-LDO_NO-BP">
@@ -27193,6 +27152,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="OUT" x="7.62" y="5.08" visible="pin" length="short" direction="pas" rot="R180"/>
 <pin name="EN" x="-10.16" y="0" visible="pin" length="short" direction="in"/>
 <pin name="NC" x="7.62" y="-5.08" visible="pin" length="short" direction="nc" rot="R180"/>
+</symbol>
+<symbol name="AP7361C">
+<wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-7.62" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
+<pin name="EN" x="-10.16" y="-5.08" visible="pin" length="short"/>
+<pin name="GND" x="-10.16" y="0" visible="pin" length="short" direction="in"/>
+<pin name="IN" x="-10.16" y="5.08" visible="pin" length="short" direction="in"/>
+<pin name="OUT" x="7.62" y="5.08" visible="pin" length="short" direction="out" rot="R180"/>
+<text x="-7.62" y="7.874" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.874" size="1.778" layer="96" rot="MR180">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -27234,6 +27205,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="VREG-14239"/>
 <attribute name="VALUE" value="AP2127K-1.8V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AP7361C-33FGE" prefix="U">
+<description>&lt;h3&gt;AP7361C 3.3V LDO Regulator&lt;/h3&gt;</description>
+<gates>
+<gate name="G$1" symbol="AP7361C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="UDFN-8" package="UDFN-8">
+<connects>
+<connect gate="G$1" pin="EN" pad="5"/>
+<connect gate="G$1" pin="GND" pad="4 EP"/>
+<connect gate="G$1" pin="IN" pad="8"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="VREG-14094"/>
 </technology>
 </technologies>
 </device>
@@ -27944,7 +27936,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
-<part name="U5" library="ublox" deviceset="AP7361C-33FGE" device=""/>
+<part name="U5" library="SparkFun-IC-Power" deviceset="AP7361C-33FGE" device="UDFN-8" value="AP7361C-33FGE"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="0.22UF" device="-0603-25V-10%" value="0.22uF"/>
