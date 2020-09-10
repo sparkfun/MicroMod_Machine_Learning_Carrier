@@ -29296,23 +29296,23 @@ control of 3.3V bus.</text>
 <attribute name="NAME" x="338.328" y="252.222" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="342.9" y="251.46" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="J5" gate="G$1" x="226.06" y="40.64" smashed="yes" rot="R180">
-<attribute name="VALUE" x="228.6" y="50.546" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="228.6" y="32.512" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J5" gate="G$1" x="231.14" y="40.64" smashed="yes" rot="R180">
+<attribute name="VALUE" x="233.68" y="50.546" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="233.68" y="32.512" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="J8" gate="G$1" x="198.12" y="66.04" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="203.2" y="56.134" size="1.778" layer="96" font="vector" rot="MR0"/>
 <attribute name="NAME" x="203.2" y="76.708" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
-<instance part="J10" gate="G$1" x="220.98" y="71.12" smashed="yes" rot="R180">
-<attribute name="VALUE" x="226.06" y="81.026" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="226.06" y="60.452" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J10" gate="G$1" x="228.6" y="71.12" smashed="yes" rot="R180">
+<attribute name="VALUE" x="233.68" y="81.026" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="233.68" y="60.452" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="GND13" gate="1" x="213.36" y="58.42" smashed="yes">
-<attribute name="VALUE" x="213.36" y="58.166" size="1.778" layer="96" align="top-center"/>
+<instance part="GND13" gate="1" x="220.98" y="58.42" smashed="yes">
+<attribute name="VALUE" x="220.98" y="58.166" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND14" gate="1" x="215.9" y="30.48" smashed="yes">
-<attribute name="VALUE" x="215.9" y="30.226" size="1.778" layer="96" align="top-center"/>
+<instance part="GND14" gate="1" x="220.98" y="30.48" smashed="yes">
+<attribute name="VALUE" x="220.98" y="30.226" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="LOGO2" gate="G$1" x="360.68" y="40.64" smashed="yes"/>
 <instance part="J11" gate="G$1" x="198.12" y="243.84" smashed="yes">
@@ -29465,7 +29465,7 @@ control of 3.3V bus.</text>
 <busses>
 </busses>
 <nets>
-<net name="SPI_SDI" class="0">
+<net name="SPI_CIPO" class="0">
 <segment>
 <wire x1="190.5" y1="243.84" x2="187.96" y2="243.84" width="0.1524" layer="91"/>
 <label x="187.96" y="243.84" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -29473,8 +29473,8 @@ control of 3.3V bus.</text>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="3"/>
-<wire x1="218.44" y1="40.64" x2="215.9" y2="40.64" width="0.1524" layer="91"/>
-<label x="215.9" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="223.52" y1="40.64" x2="220.98" y2="40.64" width="0.1524" layer="91"/>
+<label x="220.98" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J4" gate="J1" pin="SPI_SDI"/>
@@ -29490,8 +29490,8 @@ control of 3.3V bus.</text>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="45.72" x2="215.9" y2="45.72" width="0.1524" layer="91"/>
-<label x="215.9" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="223.52" y1="45.72" x2="220.98" y2="45.72" width="0.1524" layer="91"/>
+<label x="220.98" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J4" gate="J1" pin="SPI_SCK"/>
@@ -29499,7 +29499,7 @@ control of 3.3V bus.</text>
 <label x="137.16" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPI_SDO" class="0">
+<net name="SPI_COPI" class="0">
 <segment>
 <wire x1="190.5" y1="238.76" x2="187.96" y2="238.76" width="0.1524" layer="91"/>
 <label x="187.96" y="238.76" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -29507,8 +29507,8 @@ control of 3.3V bus.</text>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="43.18" x2="215.9" y2="43.18" width="0.1524" layer="91"/>
-<label x="215.9" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="223.52" y1="43.18" x2="220.98" y2="43.18" width="0.1524" layer="91"/>
+<label x="220.98" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J4" gate="J1" pin="SPI_SDO"/>
@@ -29662,34 +29662,34 @@ control of 3.3V bus.</text>
 </segment>
 <segment>
 <pinref part="J10" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="76.2" x2="213.36" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="76.2" x2="213.36" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="76.2" x2="220.98" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="76.2" x2="220.98" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="J10" gate="G$1" pin="6"/>
-<wire x1="213.36" y1="73.66" x2="213.36" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="71.12" x2="213.36" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="68.58" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="66.04" x2="213.36" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="63.5" x2="213.36" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="63.5" x2="213.36" y2="63.5" width="0.1524" layer="91"/>
-<junction x="213.36" y="63.5"/>
+<wire x1="220.98" y1="73.66" x2="220.98" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="71.12" x2="220.98" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="68.58" x2="220.98" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="66.04" x2="220.98" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="63.5" x2="220.98" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="63.5" x2="220.98" y2="63.5" width="0.1524" layer="91"/>
+<junction x="220.98" y="63.5"/>
 <pinref part="J10" gate="G$1" pin="5"/>
-<wire x1="215.9" y1="66.04" x2="213.36" y2="66.04" width="0.1524" layer="91"/>
-<junction x="213.36" y="66.04"/>
+<wire x1="223.52" y1="66.04" x2="220.98" y2="66.04" width="0.1524" layer="91"/>
+<junction x="220.98" y="66.04"/>
 <pinref part="J10" gate="G$1" pin="4"/>
-<wire x1="215.9" y1="68.58" x2="213.36" y2="68.58" width="0.1524" layer="91"/>
-<junction x="213.36" y="68.58"/>
+<wire x1="223.52" y1="68.58" x2="220.98" y2="68.58" width="0.1524" layer="91"/>
+<junction x="220.98" y="68.58"/>
 <pinref part="J10" gate="G$1" pin="3"/>
-<wire x1="215.9" y1="71.12" x2="213.36" y2="71.12" width="0.1524" layer="91"/>
-<junction x="213.36" y="71.12"/>
+<wire x1="223.52" y1="71.12" x2="220.98" y2="71.12" width="0.1524" layer="91"/>
+<junction x="220.98" y="71.12"/>
 <pinref part="J10" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="73.66" x2="213.36" y2="73.66" width="0.1524" layer="91"/>
-<junction x="213.36" y="73.66"/>
+<wire x1="223.52" y1="73.66" x2="220.98" y2="73.66" width="0.1524" layer="91"/>
+<junction x="220.98" y="73.66"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="5"/>
-<wire x1="218.44" y1="35.56" x2="215.9" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="35.56" x2="215.9" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="35.56" x2="220.98" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="35.56" x2="220.98" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -30536,8 +30536,8 @@ control of 3.3V bus.</text>
 <net name="D0/HEADER_!CS!" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="4"/>
-<wire x1="218.44" y1="38.1" x2="215.9" y2="38.1" width="0.1524" layer="91"/>
-<label x="215.9" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="223.52" y1="38.1" x2="220.98" y2="38.1" width="0.1524" layer="91"/>
+<label x="220.98" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="134.62" y1="86.36" x2="137.16" y2="86.36" width="0.1524" layer="91"/>

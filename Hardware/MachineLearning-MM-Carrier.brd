@@ -42,7 +42,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -11474,7 +11474,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$37" library="output" package="MACHINE0" value="" x="41.021" y="22.86" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
-<signal name="SPI_SDI">
+<signal name="SPI_CIPO">
 <contactref element="J11" pad="DO/DAT0"/>
 <wire x1="45.92" y1="44.99" x2="45.92" y2="43.234" width="0.1778" layer="1"/>
 <contactref element="J5" pad="3"/>
@@ -11529,7 +11529,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="27.9705" y1="34.8996" x2="32.2377" y2="30.6324" width="0.1778" layer="1"/>
 <wire x1="17.348" y1="25.07" x2="16.3999" y2="26.0181" width="0.1778" layer="1"/>
 </signal>
-<signal name="SPI_SDO">
+<signal name="SPI_COPI">
 <contactref element="J11" pad="DI/CMD"/>
 <wire x1="41.52" y1="44.99" x2="41.529" y2="44.981" width="0.1778" layer="1"/>
 <contactref element="J5" pad="2"/>
