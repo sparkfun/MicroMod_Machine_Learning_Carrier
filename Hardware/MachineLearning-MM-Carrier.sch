@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -28600,12 +28600,12 @@ Out</text>
 <wire x1="20.32" y1="53.34" x2="20.32" y2="-45.72" width="0.254" layer="94"/>
 <wire x1="20.32" y1="-45.72" x2="-20.32" y2="-45.72" width="0.254" layer="94"/>
 <wire x1="-20.32" y1="-45.72" x2="-20.32" y2="53.34" width="0.254" layer="94"/>
-<pin name="SPI_SCK/SDIO_CLK" x="22.86" y="50.8" length="short" rot="R180"/>
-<pin name="SPI_SDO/SDIO_CMD" x="22.86" y="48.26" length="short" rot="R180"/>
+<pin name="SPI_SCK1/SDIO_CLK" x="22.86" y="50.8" length="short" rot="R180"/>
+<pin name="SPI_SDO1/SDIO_CMD" x="22.86" y="48.26" length="short" rot="R180"/>
 <pin name="SDIO_DATA1" x="22.86" y="43.18" length="short" rot="R180"/>
-<pin name="SPI_SDI/SDIO_DATA0" x="22.86" y="45.72" length="short" rot="R180"/>
+<pin name="SPI_SDI1/SDIO_DATA0" x="22.86" y="45.72" length="short" rot="R180"/>
 <pin name="SDIO_DATA2" x="22.86" y="40.64" length="short" rot="R180"/>
-<pin name="SPI_!CS!/SDIO_DATA3" x="22.86" y="38.1" length="short" rot="R180"/>
+<pin name="SPI_!CS1!/SDIO_DATA3" x="22.86" y="38.1" length="short" rot="R180"/>
 <pin name="AUD_MCLK" x="-22.86" y="0" length="short"/>
 <pin name="D0" x="22.86" y="10.16" length="short" rot="R180"/>
 <pin name="SWDCK" x="-22.86" y="5.08" length="short"/>
@@ -28618,9 +28618,9 @@ Out</text>
 <pin name="A0" x="22.86" y="20.32" length="short" rot="R180"/>
 <pin name="PWM1" x="22.86" y="12.7" length="short" rot="R180"/>
 <pin name="PWM0" x="22.86" y="15.24" length="short" rot="R180"/>
-<pin name="SPI_SCK1" x="22.86" y="33.02" length="short" rot="R180"/>
-<pin name="SPI_SDO1" x="22.86" y="30.48" length="short" rot="R180"/>
-<pin name="SPI_SDI1" x="22.86" y="27.94" length="short" rot="R180"/>
+<pin name="SPI_SCK" x="22.86" y="33.02" length="short" rot="R180"/>
+<pin name="SPI_SDO" x="22.86" y="30.48" length="short" rot="R180"/>
+<pin name="SPI_SDI" x="22.86" y="27.94" length="short" rot="R180"/>
 <pin name="BATT_VIN/3" x="-22.86" y="-30.48" length="short"/>
 <pin name="RX1" x="22.86" y="0" length="short" rot="R180"/>
 <pin name="TX1" x="22.86" y="2.54" length="short" rot="R180"/>
@@ -28656,7 +28656,7 @@ Out</text>
 <pin name="G8" x="22.86" y="-35.56" length="short" rot="R180"/>
 <pin name="G9/ADC_D-/CAM_HSYNC" x="22.86" y="-38.1" length="short" rot="R180"/>
 <pin name="G10/ADC_D+/CAM_VSYNC" x="22.86" y="-40.64" length="short" rot="R180"/>
-<pin name="SPI_!CS!1" x="22.86" y="25.4" length="short" rot="R180"/>
+<pin name="SPI_!CS!" x="22.86" y="25.4" length="short" rot="R180"/>
 <text x="-20.32" y="53.848" size="1.778" layer="95">&gt;Name</text>
 <text x="-20.32" y="-48.26" size="1.778" layer="96">&gt;Value</text>
 <pin name="RTC_3V" x="-22.86" y="38.1" length="short"/>
@@ -28718,14 +28718,14 @@ Out</text>
 <connect gate="J1" pin="RX2" pad="20"/>
 <connect gate="J1" pin="SDIO_DATA1" pad="66"/>
 <connect gate="J1" pin="SDIO_DATA2" pad="68"/>
-<connect gate="J1" pin="SPI_!CS!/SDIO_DATA3" pad="70"/>
-<connect gate="J1" pin="SPI_!CS!1" pad="55"/>
-<connect gate="J1" pin="SPI_SCK/SDIO_CLK" pad="60"/>
-<connect gate="J1" pin="SPI_SCK1" pad="57"/>
-<connect gate="J1" pin="SPI_SDI/SDIO_DATA0" pad="64"/>
-<connect gate="J1" pin="SPI_SDI1" pad="61"/>
-<connect gate="J1" pin="SPI_SDO/SDIO_CMD" pad="62"/>
-<connect gate="J1" pin="SPI_SDO1" pad="59"/>
+<connect gate="J1" pin="SPI_!CS!" pad="55"/>
+<connect gate="J1" pin="SPI_!CS1!/SDIO_DATA3" pad="70"/>
+<connect gate="J1" pin="SPI_SCK" pad="57"/>
+<connect gate="J1" pin="SPI_SCK1/SDIO_CLK" pad="60"/>
+<connect gate="J1" pin="SPI_SDI" pad="61"/>
+<connect gate="J1" pin="SPI_SDI1/SDIO_DATA0" pad="64"/>
+<connect gate="J1" pin="SPI_SDO" pad="59"/>
+<connect gate="J1" pin="SPI_SDO1/SDIO_CMD" pad="62"/>
 <connect gate="J1" pin="SWDCK" pad="21"/>
 <connect gate="J1" pin="SWDIO" pad="23"/>
 <connect gate="J1" pin="TX1" pad="17"/>
@@ -28785,14 +28785,14 @@ Out</text>
 <connect gate="J1" pin="RX2" pad="20"/>
 <connect gate="J1" pin="SDIO_DATA1" pad="66"/>
 <connect gate="J1" pin="SDIO_DATA2" pad="68"/>
-<connect gate="J1" pin="SPI_!CS!/SDIO_DATA3" pad="70"/>
-<connect gate="J1" pin="SPI_!CS!1" pad="55"/>
-<connect gate="J1" pin="SPI_SCK/SDIO_CLK" pad="60"/>
-<connect gate="J1" pin="SPI_SCK1" pad="57"/>
-<connect gate="J1" pin="SPI_SDI/SDIO_DATA0" pad="64"/>
-<connect gate="J1" pin="SPI_SDI1" pad="61"/>
-<connect gate="J1" pin="SPI_SDO/SDIO_CMD" pad="62"/>
-<connect gate="J1" pin="SPI_SDO1" pad="59"/>
+<connect gate="J1" pin="SPI_!CS!" pad="55"/>
+<connect gate="J1" pin="SPI_!CS1!/SDIO_DATA3" pad="70"/>
+<connect gate="J1" pin="SPI_SCK" pad="57"/>
+<connect gate="J1" pin="SPI_SCK1/SDIO_CLK" pad="60"/>
+<connect gate="J1" pin="SPI_SDI" pad="61"/>
+<connect gate="J1" pin="SPI_SDI1/SDIO_DATA0" pad="64"/>
+<connect gate="J1" pin="SPI_SDO" pad="59"/>
+<connect gate="J1" pin="SPI_SDO1/SDIO_CMD" pad="62"/>
 <connect gate="J1" pin="SWDCK" pad="21"/>
 <connect gate="J1" pin="SWDIO" pad="23"/>
 <connect gate="J1" pin="TX1" pad="17"/>
@@ -29465,18 +29465,6 @@ control of 3.3V bus.</text>
 <busses>
 </busses>
 <nets>
-<net name="SDIO_DAT1" class="0">
-<segment>
-<wire x1="190.5" y1="246.38" x2="187.96" y2="246.38" width="0.1524" layer="91"/>
-<label x="187.96" y="246.38" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J11" gate="G$1" pin="DAT1/NC"/>
-</segment>
-<segment>
-<wire x1="134.62" y1="119.38" x2="137.16" y2="119.38" width="0.1524" layer="91"/>
-<label x="137.16" y="119.38" size="1.27" layer="95" xref="yes"/>
-<pinref part="J4" gate="J1" pin="SDIO_DATA1"/>
-</segment>
-</net>
 <net name="SPI_SDI" class="0">
 <segment>
 <wire x1="190.5" y1="243.84" x2="187.96" y2="243.84" width="0.1524" layer="91"/>
@@ -29484,14 +29472,14 @@ control of 3.3V bus.</text>
 <pinref part="J11" gate="G$1" pin="DAT0/SDO"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="121.92" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
-<label x="137.16" y="121.92" size="1.27" layer="95" xref="yes"/>
-<pinref part="J4" gate="J1" pin="SPI_SDI/SDIO_DATA0"/>
-</segment>
-<segment>
 <pinref part="J5" gate="G$1" pin="3"/>
 <wire x1="218.44" y1="40.64" x2="215.9" y2="40.64" width="0.1524" layer="91"/>
 <label x="215.9" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J4" gate="J1" pin="SPI_SDI"/>
+<wire x1="134.62" y1="104.14" x2="137.16" y2="104.14" width="0.1524" layer="91"/>
+<label x="137.16" y="104.14" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_SCK" class="0">
@@ -29501,14 +29489,14 @@ control of 3.3V bus.</text>
 <pinref part="J11" gate="G$1" pin="CLK/SCK"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="127" x2="137.16" y2="127" width="0.1524" layer="91"/>
-<label x="137.16" y="127" size="1.27" layer="95" xref="yes"/>
-<pinref part="J4" gate="J1" pin="SPI_SCK/SDIO_CLK"/>
-</segment>
-<segment>
 <pinref part="J5" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="45.72" x2="215.9" y2="45.72" width="0.1524" layer="91"/>
 <label x="215.9" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J4" gate="J1" pin="SPI_SCK"/>
+<wire x1="134.62" y1="109.22" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
+<label x="137.16" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_SDO" class="0">
@@ -29518,38 +29506,14 @@ control of 3.3V bus.</text>
 <pinref part="J11" gate="G$1" pin="CMD/SDI"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="124.46" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
-<label x="137.16" y="124.46" size="1.27" layer="95" xref="yes"/>
-<pinref part="J4" gate="J1" pin="SPI_SDO/SDIO_CMD"/>
-</segment>
-<segment>
 <pinref part="J5" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="43.18" x2="215.9" y2="43.18" width="0.1524" layer="91"/>
 <label x="215.9" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-</net>
-<net name="SPI_!CS!/SDIO_DAT3" class="0">
 <segment>
-<wire x1="190.5" y1="251.46" x2="187.96" y2="251.46" width="0.1524" layer="91"/>
-<label x="187.96" y="251.46" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J11" gate="G$1" pin="DAT3/!CS!"/>
-</segment>
-<segment>
-<wire x1="134.62" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
-<label x="137.16" y="114.3" size="1.27" layer="95" xref="yes"/>
-<pinref part="J4" gate="J1" pin="SPI_!CS!/SDIO_DATA3"/>
-</segment>
-</net>
-<net name="SDIO_DAT2" class="0">
-<segment>
-<wire x1="190.5" y1="248.92" x2="187.96" y2="248.92" width="0.1524" layer="91"/>
-<label x="187.96" y="248.92" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="J11" gate="G$1" pin="DAT2/NC"/>
-</segment>
-<segment>
-<wire x1="134.62" y1="116.84" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
-<label x="137.16" y="116.84" size="1.27" layer="95" xref="yes"/>
-<pinref part="J4" gate="J1" pin="SDIO_DATA2"/>
+<pinref part="J4" gate="J1" pin="SPI_SDO"/>
+<wire x1="134.62" y1="106.68" x2="137.16" y2="106.68" width="0.1524" layer="91"/>
+<label x="137.16" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -30613,6 +30577,18 @@ control of 3.3V bus.</text>
 <junction x="71.12" y="231.14"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="71.12" y1="228.6" x2="71.12" y2="231.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SPI_!CS!" class="0">
+<segment>
+<pinref part="J4" gate="J1" pin="SPI_!CS!"/>
+<wire x1="134.62" y1="101.6" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
+<label x="137.16" y="101.6" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="190.5" y1="251.46" x2="187.96" y2="251.46" width="0.1524" layer="91"/>
+<label x="187.96" y="251.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="J11" gate="G$1" pin="DAT3/!CS!"/>
 </segment>
 </net>
 </nets>
