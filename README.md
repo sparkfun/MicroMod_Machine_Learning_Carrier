@@ -6,20 +6,23 @@ SparkFun MicroMod Machine Learning Carrier Board
 [*SparkFun MicroMod Machine Learning Carrier Board (16400)*](https://www.sparkfun.com/products/16400)
 
 
-<Basic description of the part.>
+The MicroMod Machine Learning Carrier Board combines some of the features of our SparkFun Edge Board and SparkFun Artemis boards, but allows you the freedom to explore with any processor in the MicroMod lineup without the need for a central computer or web connection. Voice recognition, always-on voice commands, gesture, or image recognition are possible with TensorFlow applications. The cloud is impressively powerful but all-the-time connection requires power and connectivity that may not be available. Edge computing handles discrete tasks such as determining if someone said "yes" and responds accordingly. The audio analysis is done on the MicroMod combination rather than on the web. This dramatically reduces costs and complexity while limiting potential data privacy leaks. 
+
+This board features two MEMS microphones with an operational amplifier, an ST LIS2DH12 3-axis accelerometer on its own I<sup>2</sup>C bus, a connector to interface to an OV7670 camera (sold separately), and Qwiic connector. A modern USB-C connector makes programming easy and we've exposed the JTAG connector for more advanced users who prefer to use the power and speed of professional tools. We've even added a convenient jumper to measure current consumption for low power testing.
 
 Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Examples** - 
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Libraries** - Libraries for use with the <PRODUCT NAME>
 
 Documentation
 --------------
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/micromod-machine-learning-carrier-board-hookup-guide)** - Basic hookup guide for the SparkFun MicroMod Machine Learning Carrier Board.
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
+* **[Test Sketches](https://github.com/sparkfun/MicroMod_Test_Sketches)** - Arduino test sketches for the MicroMod ecosystem.
+* **[Getting Started with MicroMod](https://learn.sparkfun.com/tutorials/getting-started-with-micromod)** - A tutorial to help you get started with the MicroMod Ecosystem. 
+* **[Designing with MicroMod](https://learn.sparkfun.com/tutorials/designing-with-micromod)** - Detailed tutorial on designing with the MicroMod standard. 
 
 License Information
 -------------------
