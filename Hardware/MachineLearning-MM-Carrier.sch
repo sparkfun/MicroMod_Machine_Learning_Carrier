@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -28967,7 +28967,7 @@ Out</text>
 <text x="274.32" y="266.7" size="2.54" layer="94" align="center">LIS2DH12 3-Axis Accelerometer</text>
 <text x="266.7" y="259.08" size="1.778" layer="97">I2C Address:
 0x19 (SA0 = 1)</text>
-<text x="195.58" y="132.08" size="1.778" layer="97">I2C Address: 0x21</text>
+<text x="195.58" y="132.08" size="1.778" layer="97">I2C Address: 0x24</text>
 <text x="198.12" y="266.7" size="2.54" layer="94" align="center">μSD</text>
 <text x="287.02" y="154.94" size="1.778" layer="97" rot="R90">300uA Leakage</text>
 <text x="279.4" y="142.24" size="1.778" layer="97">See Seiko catalog for charge circuit</text>

@@ -1,7 +1,7 @@
 SparkFun MicroMod Machine Learning Carrier Board
 ========================================
 
-![SparkFun MicroMod Machine Learning Carrier Board](https://cdn.sparkfun.com/assets/parts/1/5/1/2/6/16400-SparkFun_MicroMod_Machine_Learning_Carrier_Board-01.jpg)
+![SparkFun MicroMod Machine Learning Carrier Board](https://cdn.sparkfun.com//assets/parts/1/5/1/2/6/16400-SparkFun_MicroMod_Machine_Learning_Carrier_Board-04A.jpg)
 
 [*SparkFun MicroMod Machine Learning Carrier Board (16400)*](https://www.sparkfun.com/products/16400)
 
